@@ -1,5 +1,4 @@
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 
@@ -8,10 +7,7 @@ module.exports = {
         main:"./src/index.js",
         vendor: "./src/vendor.js"
     },
-    plugins: [new HtmlWebpackPlugin({
-        template: "./src/template.html"
-    })
-    ],
+    plugins: [],
     module: {
         rules: [
             {
