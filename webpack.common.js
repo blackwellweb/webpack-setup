@@ -8,6 +8,7 @@ module.exports = {
         vendor: "./src/vendor.js"
     },
     plugins: [],
+    devtool: 'eval-source-map',
     module: {
         rules: [
             {
